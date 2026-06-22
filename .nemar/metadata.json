@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG: Attended Speaker Paradigm (Own Name in Ignored Stream)",
+  "description": "This dataset comprises EEG recordings from 25 participants performing a two-competing speaker paradigm designed to investigate selective attention and the cocktail party effect. Participants attended to one of two simultaneously presented audiobooks while their own name was embedded in the ignored stream, with conditions varying between omnidirectional and beamforming audio presentations across five 10-minute blocks. The study examines neural correlates of attention allocation and the processing of personally relevant stimuli in complex auditory environments.",
+  "methods_description": "EEG data were collected during a two-competing speaker paradigm consisting of five 10-minute blocks of audiobook presentation. Participants attended to either the left or right speaker while their own name was presented 10 times per block in the ignored stream. Conditions alternated between omnidirectional (equal loudness) and beamforming (attended stream louder) presentations, with the first block always omnidirectional.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,6 +13,26 @@
     "Kamil Adiloglu": {},
     "Bojana Mirkovic": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "selective attention"
+    },
+    {
+      "term": "cocktail party effect"
+    },
+    {
+      "term": "auditory processing"
+    },
+    {
+      "term": "competing speakers"
+    },
+    {
+      "term": "personal relevance"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003516.v1.1.1",
@@ -33,12 +55,12 @@
       "relation_type": "IsDescribedBy"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "14.5 GB (133 files)"
   ],
   "formats": [
     ".fdt",
@@ -48,29 +70,8 @@
     ".md",
     ".set",
     ".tsv",
-    ".wav"
-  ],
-  "description": "This dataset comprises EEG recordings from 25 participants performing a two-competing speaker paradigm designed to investigate selective attention and the cocktail party effect. Participants attended to one of two simultaneously presented audiobooks while their own name was embedded in the ignored stream, with conditions varying between omnidirectional and beamforming audio presentations. The study examines neural correlates of attention allocation and self-referential processing in complex auditory environments.",
-  "methods_description": "EEG data were collected during a two-competing speaker paradigm consisting of five 10-minute blocks of audiobook presentation. Participants attended to either the left or right speaker while their own name was presented 10 times per block in the ignored stream. Conditions alternated between omnidirectional (equal loudness) and beamforming (attended stream louder) presentations, with the first block always omnidirectional.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "selective attention"
-    },
-    {
-      "term": "cocktail party effect"
-    },
-    {
-      "term": "auditory processing"
-    },
-    {
-      "term": "self-referential processing"
-    },
-    {
-      "term": "competing speakers"
-    }
+    ".wav",
+    ".yml"
   ],
   "source_hash": "c7280315547b22e6f2e0b1b33d9ce5ccbd86e898fc4594f87d31bc531be28e0f"
 }
