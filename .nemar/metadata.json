@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG: Attended Speaker Paradigm (Own Name in Ignored Stream)",
-  "description": "This dataset comprises EEG recordings from 25 participants performing a two-competing speaker paradigm designed to investigate selective attention and the cocktail party effect. Participants attended to one of two simultaneously presented audiobooks while their own name was embedded in the ignored stream, with conditions varying between omnidirectional and beamforming audio presentations across five 10-minute blocks. The study examines neural correlates of attention allocation and the processing of personally relevant stimuli in complex auditory environments.",
-  "methods_description": "EEG data were collected during a two-competing speaker paradigm consisting of five 10-minute blocks of audiobook presentation. Participants attended to either the left or right speaker while their own name was presented 10 times per block in the ignored stream. Conditions alternated between omnidirectional (equal loudness) and beamforming (attended stream louder) presentations, with the first block always omnidirectional.",
+  "description": "This dataset comprises EEG recordings from 25 participants performing a two-competing-speaker auditory attention paradigm, in which listeners attended to one of two simultaneously presented audio books. The paradigm examined the cocktail party effect, including detection of participants' own names embedded in the ignored stream, under omnidirectional and beamforming (spatial enhancement) listening conditions. The dataset supports research on selective auditory attention and neural tracking of speech.",
+  "methods_description": "25 participants attended to one of two competing audio books across five 10-minute blocks. In each block, the participant's own name was presented 10 times within the to-be-ignored stream. Blocks alternated between an omnidirectional condition (both audio books equally loud) and a beamforming condition (attended audio book louder), with the first block always omnidirectional and starting condition counterbalanced across participants.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,31 +18,28 @@
       "term": "EEG"
     },
     {
-      "term": "selective attention"
+      "term": "Auditory Attention"
     },
     {
-      "term": "cocktail party effect"
+      "term": "Cocktail party effect"
     },
     {
-      "term": "auditory processing"
+      "term": "Selective attention"
     },
     {
-      "term": "competing speakers"
+      "term": "Speech Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013067"
     },
     {
-      "term": "personal relevance"
+      "term": "Beamforming"
     }
   ],
   "related_identifiers": [
     {
-      "identifier": "10.18112/openneuro.ds003516.v1.1.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
       "identifier": "10.3389/fnins.2021.643705",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on003516",
@@ -50,7 +47,12 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003516",
+      "identifier": "10.18112/openneuro.ds003516.v1.1.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003516",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     }
@@ -60,7 +62,7 @@
     "eeg"
   ],
   "sizes": [
-    "14.5 GB (133 files)"
+    "13.46 GB (133 files)"
   ],
   "formats": [
     ".fdt",
@@ -73,5 +75,5 @@
     ".wav",
     ".yml"
   ],
-  "source_hash": "c7280315547b22e6f2e0b1b33d9ce5ccbd86e898fc4594f87d31bc531be28e0f"
+  "source_hash": "20f3f65e5b2cbf9ce17e0a38fd417a81b3694399a619270057bd6c874dd0a9c6"
 }
