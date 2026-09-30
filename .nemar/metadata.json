@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG: Attended Speaker Paradigm (Own Name in Ignored Stream)",
-  "description": "This dataset comprises EEG recordings from 25 participants performing a two-competing-speaker auditory attention paradigm, in which listeners attended to one of two simultaneously presented audio books. The paradigm examined the cocktail party effect, including detection of participants' own names embedded in the ignored stream, under omnidirectional and beamforming (spatial enhancement) listening conditions. The dataset supports research on selective auditory attention and neural tracking of speech.",
-  "methods_description": "25 participants attended to one of two competing audio books across five 10-minute blocks. In each block, the participant's own name was presented 10 times within the to-be-ignored stream. Blocks alternated between an omnidirectional condition (both audio books equally loud) and a beamforming condition (attended audio book louder), with the first block always omnidirectional and starting condition counterbalanced across participants.",
+  "description": "EEG recordings from 25 participants performing a two-competing-speaker selective attention task, in which they attended to either the left or right audio book. The participant's own name was embedded 10 times per block in the to-be-ignored stream, allowing study of attention capture and neural tracking of attended and ignored speech. Blocks alternated between an omnidirectional condition (equal loudness) and a beamforming condition (attended stream louder).",
+  "methods_description": "Each participant completed five 10-minute audio book blocks. The first block was always omnidirectional, and the remaining four alternated between omnidirectional and beamforming conditions, with the starting condition counterbalanced across participants. The participant's own name was presented 10 times per block within the ignored audio book.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,21 +18,24 @@
       "term": "EEG"
     },
     {
-      "term": "Auditory Attention"
+      "term": "selective attention"
     },
     {
-      "term": "Cocktail party effect"
+      "term": "speech tracking"
     },
     {
-      "term": "Selective attention"
+      "term": "cocktail party"
     },
     {
-      "term": "Speech Perception",
+      "term": "own name"
+    },
+    {
+      "term": "beamforming"
+    },
+    {
+      "term": "Attention",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D013067"
-    },
-    {
-      "term": "Beamforming"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
     }
   ],
   "related_identifiers": [
